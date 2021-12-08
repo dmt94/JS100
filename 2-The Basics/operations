@@ -1,0 +1,4 @@
+let firstNum = 38;
+let secNum = 4;
+let sum = firstNum + secNum;
+console.log(sum);
