@@ -18,9 +18,15 @@ console.log(product);
 
 //Division and Remainder
 let dividend = 16;
-let divisor = 4;
+let divisor = 2.5;
 let quot = dividend / divisor;
 console.log(quot);
+
+//Remainder
+let dividendMod = 16;
+let divisorMod = 4;
+let modulo = dividendMod % divisorMod;
+console.log(modulo);
 
 
 
