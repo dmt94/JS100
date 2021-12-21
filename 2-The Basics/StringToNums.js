@@ -1,3 +1,5 @@
+      //STRING -> NUMBER 
+
 console.log(Number('1'));
 console.log(typeof Number('1'));
 
@@ -29,3 +31,7 @@ let decWithLetters = parseFloat('12.45hello');
 console.log(`dec is: ${decWithLetters}`);
 
 
+      //NUMBER -> STRING
+
+let newString = String(200);
+console.log(`${newString} is a: ${typeof newString}`);
