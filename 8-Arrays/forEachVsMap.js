@@ -1,6 +1,7 @@
 
-/* map returns a new array that contains one element for each element in
-the array passed to it. 
+/* map returns a new array that contains one element for 
+each element in the array passed to it. 
+
 forEach performs simple iterations and returns UNDEFINED
 map transforms an array's elements and returns a NEW ARRAY 
 with the transformed values
