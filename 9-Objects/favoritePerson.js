@@ -2,7 +2,7 @@
 let person = {
   name: 'K.A.J.H',
   birthdate: 'December 5',
-  astrology: { //LOL
+  astrology: { //LOLOLOL 
     sun: 'Sagittarius', 
     moon: 'Cancer',
     rising: 'Capricorn',
@@ -59,7 +59,7 @@ let me = {
   'trying out new cafés and restaurants',
   'farmers\' market shopping',
   'working out',
-  'boxing',
+  'hiking',
   'cooking', 
   'yoga',
   'baking', 
