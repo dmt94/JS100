@@ -2,14 +2,6 @@
 let person = {
   name: 'K.A.J.H',
   birthdate: 'December 5',
-  astrology: { //LOLOLOL 
-    sun: 'Sagittarius', 
-    moon: 'Cancer',
-    rising: 'Capricorn',
-    venus: 'Sagittarius',
-    mars: 'Libra',
-    mercury: 'Sagittarius',
-  },
   hobbies: ['playing games', 
   'working out',
   'learning something new', 
@@ -45,14 +37,6 @@ console.log(`\nWhat is he doing right now?\n${hName} is ${hActivity} !\n`);
 let me = {
   name: 'D.M.T',
   birthdate: 'April 22',
-  astrology: { 
-    sun: 'Taurus', 
-    moon: 'Virgo',
-    rising: 'Gemini',
-    venus: 'Taurus',
-    mars: 'Aries',
-    mercury: 'Aries',
-  },
   hobbies: ['coding', 
   'reading mystery/thriller books',
   'digital painting',
