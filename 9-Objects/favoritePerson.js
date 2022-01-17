@@ -79,3 +79,17 @@ let me = {
     'warm tones',
   ]
 }
+
+let mHobbies = me.hobbies;
+let mName = me.name
+let randInt2 = Math.floor(Math.random() * mHobbies.length);
+let mActivity = mHobbies[randInt2];
+
+console.log(`\nWhat is ${mName} doing right now?\n${mName} is ${hActivity} !\n`);
+
+//accesses all the values , helpful for when you don't know the key names
+for (const key in person) {
+  if (person.hasOwnProperty(key)){
+    console.log(person[key]);
+  }
+}

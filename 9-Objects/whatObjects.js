@@ -1,5 +1,5 @@
-const { colors } = require("prompt");
 
+//hunkle as an array
 let hunkle = [
   {colors: ['tan/brown', 'blue', 'green', 'earth tones', ['yellow', 'black', 'misc']]},
   {food: 'mom\'s homecooked meal'},
@@ -46,3 +46,52 @@ specifies which VALUE you want to access from colorValues
 console.log(colorValues[0][0]);    //outputs the first element inside array *array is the property of 'colors'*
 console.log(colorValues[0][4]);    //outputs the last element--a nested array
 console.log(colorValues[0][4][0]); //outputs the first element of the nested array element
+
+//check what 'hunkle' is / variable check:
+
+function arrayCheck(variable) {
+  if (Array.isArray(variable) === true) {
+    return `TRUE: argument is an array.`
+  }
+  else return `FALSE: argument is NOT an array.`
+}
+
+function objectCheck(variable) {
+  if (typeof variable === 'object' && !Array.isArray(variable) && variable !== null) {
+    return 'TRUE: argument is an object exclusive, neither an array or null'
+  }
+  else return 'FALSE: argument is not exclusively an object.\n >Argument could be an array, null, or another data type.'
+}
+
+console.log(arrayCheck(hunkle));
+console.log(objectCheck(hunkle));
+
+//hunkleO as an object
+
+let person = {
+  name: 'Mari',
+  age: 27, 
+  'musical instrument': 'guitar',
+  crystal: 'tiger\'s eye',
+  phrase: 'persistance and peace',
+  color: ['crimson', 'sapphire', 'onyx', 'white',],
+}
+
+
+
+
+/* object 'person' has 6 key-value pairs
+KEY NAMES can be referred to as PROPERTIES, so
+person has properties: name, age, musical instrument, crystal, phrase, and color
+
+{}  : delimit the list of key-value pairs contained by the object ('hunkle')
+(,) : each key-value pair ends with a comma
+(:) : each key-value pair has a KEY:VALUE
+
+values: of any pair can be any type
+
+
+key-value pairs are also called OBJECT PROPERTIES
+we can also use "PROPERTY" to REFER to the KEY NAME
+we can talk about the name property for the person object without mentioning the value.
+*/
