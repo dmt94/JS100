@@ -1,1 +1,0 @@
-console.log(`10 times 2 equals ${10 * 2}`)
