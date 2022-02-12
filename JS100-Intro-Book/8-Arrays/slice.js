@@ -2,6 +2,8 @@
 slice method -- extracts and returns a PORTION of the array
 Two optional arguments are taken
 (extraction begins, extraction ends) end is not included
+
+(learn more)
 */
 
 let fruits = ['mango', 'orange', 'banana', 'pear', 'apple']
