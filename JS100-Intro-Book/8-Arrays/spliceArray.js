@@ -13,10 +13,17 @@ let hunkleAilments = ['botulism', 'lactose', 'IBS', 'paranoia', 'vertigo', 'bull
 
 
 function spliceFunc(array) {
-  return array.splice(1, 4)               //function returns deleted elements
+  return array.splice(1, 4);               //function returns deleted elements
 }
 
 console.log(hunkleAilments);
 console.log(spliceFunc(hunkleAilments)); //outputs the deleted elements
 // hunkleAilments.splice(1, 4);
 console.log(hunkleAilments)              //outputs the mutated array after splice method 
+
+let kireiFood = ['chicken', 'cesar\'s salad', 'kombucha', 'yogurt', 'almonds', 'protein bars'];
+
+// kireiFood.splice(1) // deletes from index -> end 
+// kireiFood.splice(1,1); // deletes the element at chosen index only 
+
+console.log(kireiFood);

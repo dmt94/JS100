@@ -79,11 +79,11 @@ s
 //logs the key and the value <- using objectName[key]
 function logValues(keyVariable, objectName) {
   keyVariable.forEach(key => { //forEach iterates over the keys
-    console.log(key, objectName[key]) //logs the VALUES of each key--in this case, only the modified properties are shown
+    console.log(key, objectName[key]) 
   })
 };
 
-logValues(objKeys, orangeGrove);
+logValues(objKeys, orangeGrove); //logs the VALUES of each key--in this case, only the modified properties are shown
 
 //Object.keys returns that object's OWN keys, 
 //for in loop can include values/ properties of its prototype

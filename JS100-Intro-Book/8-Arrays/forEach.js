@@ -6,14 +6,14 @@ forEach always returns undefined.
 
 let dunphy = ['phil', 'claire', 'alex', 'luke', 'hailey'];
 
-
+//several lines of code
 dunphy.forEach(function(name) {
   console.log(`${name.toUpperCase()} DUNPHY`);
 })
 
 console.log("");
 
-//arrow functions version
+//arrow notation version
                                           // method block / function body 
 let isADunphy = dunphy.forEach(name => console.log(`${name} is a Dunphy.`));
 console.log(isADunphy); // console.log logs but also returns 'undefined' bc forEach returns undefined
